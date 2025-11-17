@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Stilizimi-login.css">
+    <title> Log-in</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="Kutia1">
+        <form action="get">
+            <h3 id="Login">Login</h3>
+            <input type="text" name="Email" id="Email" placeholder="Email" class="input-emaili">
+            <br><br>
+            <input type="password" name="password" id="Emri" placeholder="Password" class="input-pass">
+            <p class="forgot-password">Forgot Password?</p>
+            <button id="butoni1">Login</button>
+            <br><br>
+            <p class="fjali">Don't have an account? <a href="Signup.html" class="linku">Signup</a></p>
+            <div class="divider">Or</div>
+            <button id="butoni-fb"><img src="logo-fb.png" class="foto-fb">
+                <a href="https://www.facebook.com/" class="fb"> Login with Facebook</a>
+            </button>
+            <br><br>
+            <button id="butoni-google"> <img src="logojaperfundimtare.png" class="foto-google"> <a
+                    href="https://www.google.com/" class="google">Login with Google</a>
+            </button>
+        </form>
+    </div>
+    <div id="Sign-up"></div>
+</body>
+</html>
