@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="Stilizimi-signup.css">
+</head>
+<body>
+    <div class="Kutia2">
+        <form action="get">
+            <h3 class="Sign-up">Signup</h3>
+            <input type="text" name="Email" id="Email" placeholder="Email" class="input-emaili">
+            <br><br>
+            <input type="password" name="password" id="password" placeholder="Create password" class="password">
+            <br><br>
+            <input type="password" name="password" id="password" placeholder="Confirm password" class="confirm-pass">
+            <br><br>
+            <button class="butoni">Signup</button>
+            <p class="paragrafi">Already have an account? <a href="Login.html" class="link">Login</a></p>
+             <div class="divider">Or</div>
+            <button class="Login-with-fb"><img src="logo-fb.png" class="fotoja-fb">
+                <a href="https://www.facebook.com/" class="fb"> Login with Facebook</a></button>
+            <br><br>
+            <button class="Login-with-google"><a href="https://www.google.com/" class="google">Login with Google</a>
+                <img src="logojaperfundimtare.png" class="fotoja-google">
+            </button>
+        </form>
+    </div>
+</body>
+</html>
